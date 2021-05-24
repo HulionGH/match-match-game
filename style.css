@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background: #1abc9c;
+  background-image: linear-gradient(to top left, #9b59b6, #1abc9c);
+  font-family: arial;
+  position: relative;
+  text-align: center;
+}
+/* HEADER */
+header {
+  color: white;
+  letter-spacing: 10px;
+  font-size: 22px;
+  padding: 10px 5px;
+}
+header h1 {
+  font-weight: 400;
+}
+
+.about_game {
+  background: white;
+  width: 250px;
+  height: 345px;
+  margin: auto;
+}
